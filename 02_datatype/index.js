@@ -10,6 +10,14 @@
 
 // NON PRIMITIVE TYPE
 
-console.log(typeof "ajay")
-console.log(typeof undefined);
-console.log(typeof null)
+// console.log(typeof "ajay")
+// console.log(typeof undefined);
+// console.log(typeof null)
+ console.log("Symbol");
+ 
+ const id = Symbol('123');
+const anotherID = Symbol('123');
+console.log(id);
+console.log(anotherID);
+
+console.log(id === anotherID);
